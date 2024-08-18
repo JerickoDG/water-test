@@ -65,7 +65,7 @@ def main():
     try:
         params_filepath = "params.yaml"
         processed_train_data_filepath = "./data/processed/train_processed.csv"
-        model_filepath = "model.pkl"
+        model_filepath = "models/model.pkl"
 
         n_estimators = load_params(params_filepath)
         train_data = load_data(processed_train_data_filepath)
